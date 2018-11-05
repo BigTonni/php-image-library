@@ -1,0 +1,21 @@
+{
+    "name": "vendor/php-image-library",
+    "type": "library",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Shulga",
+            "email": "shandm85@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Image\\": "src"
+        }
+    }
+}
