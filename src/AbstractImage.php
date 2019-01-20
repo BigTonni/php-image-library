@@ -22,14 +22,15 @@ abstract class AbstractImage
     /**
      * @var int
      */
-    protected $height;    
-    
+    protected $height;
+
     /**
-     * @param string $fileName
+     * @return mixed
      */
-    public function __construct($fileName)
-    {
-        $this->fileName = $fileName;
-    }
-   
+    abstract public function show();
+
+    /**
+     * @return mixed
+     */
+    abstract public function save();
 }
